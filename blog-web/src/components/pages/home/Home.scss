@@ -1,0 +1,49 @@
+.custom-card {
+    border: 2px solid black !important;
+    padding: 10px !important;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-20+.margin-20 {
+    margin-top: 20px;
+}
+
+.margin-50+.margin-50 {
+    margin-top: 50px;
+}
+
+.text-align-ct {
+    text-align: center;
+}
+
+.jt-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    text-align: left;
+}
+
+.comment-toggle {
+    cursor: pointer;
+}
+
+.comment-content {
+    position: relative;
+}
+
+.edit-icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #007bff;
+}
+
+.comment-content:hover .edit-icon {
+    display: inline;
+}
